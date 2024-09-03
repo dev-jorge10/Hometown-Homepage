@@ -29,7 +29,7 @@
     justify-content: center;
     height: 600px;
     background: #f0f0f0;
-    background-image: url(beSomeone.jpg);
+    background-image: url(/images/beSomeone.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -69,12 +69,13 @@
 }
 
 .event-section {
-    width: 30%; /* Adjust width as needed */
+    width: 30%;
     margin: 10px;
     box-sizing: border-box;
     text-align: center;
     margin: 40px 0px 40px 0px;
     font-size: 1em;
+
 }
 
   .event-section ,h2{
@@ -94,12 +95,11 @@
 
 .guide{
     background-color: #A8DADC;
-    ; /* Background color for the guide section */
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card effect */
-    max-width: 600px; /* Center and contain the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 600px; 
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -115,7 +115,7 @@
     color: #1D3557;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center the text vertically */
+    justify-content: center; 
     height: 250px; 
 }
 
@@ -182,7 +182,7 @@
     #avatar {
         width: 200px;
         height: 200px;
-        margin-bottom: 20px; /* Add some space below the image */
+        margin-bottom: 20px;
     }
 
     .guide-text h3 {
