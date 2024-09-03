@@ -92,6 +92,55 @@
 
   }
 
+.guide{
+    background-color: #A8DADC;
+    ; /* Background color for the guide section */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card effect */
+    max-width: 600px; /* Center and contain the card */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.guide-content{
+    display: flex;
+    align-items: center;
+    
+}
+.guide-text{
+    margin-left: 20px;
+    color: #1D3557;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the text vertically */
+    height: 250px; 
+}
+
+.guide-text h3{
+    font-size: 1.9em;
+    margin-bottom: 40px;
+}
+
+
+
+.guide-text p {
+    font-size: 1.3em;
+    margin-bottom: 35px;
+}
+
+.guide-text h4 {
+    font-size: 1.4em;
+}
+
+#avatar{
+    width: 250px;
+    height: 250px;
+
+   
+}
 
   @media (max-width: 768px) {
     .hero {
@@ -117,6 +166,37 @@
 
     .event-section {
         width: 45%;
+    }
+
+    .guide-content {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center;
+    }
+
+    .guide-text {
+        margin-left: 0;
+        text-align: center;
+        height: auto; /* Allow text height to adjust naturally */
+    }
+
+    #avatar {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px; /* Add some space below the image */
+    }
+
+    .guide-text h3 {
+        font-size: 1.6em;
+        margin-bottom: 20px;
+    }
+
+    .guide-text p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    .guide-text h4 {
+        font-size: 1.3em;
     }
 }
 
@@ -149,5 +229,22 @@
     .event-section {
         width: 100%;
         margin: 20px 0;
+    }
+
+    .guide-text h3 {
+        font-size: 1.4em;
+    }
+
+    .guide-text p {
+        font-size: 1.1em;
+    }
+
+    .guide-text h4 {
+        font-size: 1.2em;
+    }
+
+    #avatar {
+        width: 150px;
+        height: 150px;
     }
 }
